@@ -10,12 +10,12 @@ Bu proje, yüksek performanslı bir **SaaS (Software as a Service)** mimarisiyle
 
 Proje iki ana katmandan oluşur:
 
-1.  **Backend (Beyin):** Python & FastAPI
+1.  **Backend:** Python & FastAPI
     * YOLOv8-Small yapay zeka modelini barındırır.
     * Gelen görüntüleri işler, duygu analizi yapar ve JSON formatında sonuç döner.
     * Docker ile konteynerize edilmiştir.
 
-2.  **Frontend (Yüz):** HTML5, CSS3 & JavaScript
+2.  **Frontend:** HTML5, CSS3 & JavaScript
     * Kullanıcının tarayıcısında çalışır (Client-Side).
     * Web kamerasını donmadan, gecikmesiz (Zero-Latency) görüntüler.
     * Chart.js ile canlı veri görselleştirmesi yapar.
